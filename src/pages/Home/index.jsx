@@ -1,5 +1,5 @@
 import React from "react";
-import { Choose, Featured, Footer, Navbar } from "../../components";
+import { Choose, Featured, Footer, Navbar, Property } from "../../components";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -40,6 +40,7 @@ export default function Home() {
             </section>
             <Featured />
             <Choose />
+            <Property />
             <Footer />
         </>
     );

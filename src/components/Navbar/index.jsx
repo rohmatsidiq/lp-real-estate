@@ -64,16 +64,13 @@ export default function Navbar() {
                     <Link className="hover:text-teal-600" to={"/"}>
                         Home
                     </Link>
-                    <Link className="hover:text-teal-600" to={"/"}>
+                    <Link className="hover:text-teal-600" to="#featured">
                         Featured
                     </Link>
-                    <Link className="hover:text-teal-600" to={"/"}>
+                    <Link className="hover:text-teal-600" to="#service">
                         Services
                     </Link>
-                    <Link className="hover:text-teal-600" to={"/"}>
-                        Explore
-                    </Link>
-                    <Link className="hover:text-teal-600" to={"/"}>
+                    <Link className="hover:text-teal-600" to="#contact">
                         Contact
                     </Link>
                 </nav>

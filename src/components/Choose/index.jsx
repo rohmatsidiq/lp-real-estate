@@ -3,7 +3,7 @@ import ChooseCard from "../ChooseCard";
 
 export default function Choose() {
     return (
-        <section className="my-10 flex gap-3">
+        <section id="service" className="my-10 flex gap-3">
             <div>
                 <img
                     className="w-full"

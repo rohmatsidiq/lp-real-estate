@@ -3,7 +3,7 @@ import FeaturedCard from "../FeaturedCard";
 
 export default function Featured() {
     return (
-        <section id="#featured" className="my-16 max-w-[1000px] mx-auto">
+        <section id="featured" className="my-16 max-w-[1000px] mx-auto">
             <h1 className="text-center text-slate-600 font-bold text-5xl mb-3">
                 Featured
             </h1>
